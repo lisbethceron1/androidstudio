@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hola_mundo">Hola mundo!</string>
+    <string name="mi_boton">mi boton</string>
+    <string name="usuario">usuario</string>
+    <string name="contrase_a">/contrase_a</string>
+    <string name="sign_up">sign_up</string>
+    <string name="contrasena">contrasena</string>
+    <string name="inicio_de_sesion">inicio de sesion</string>
+</resources>
