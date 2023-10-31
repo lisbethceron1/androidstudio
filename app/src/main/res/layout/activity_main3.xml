@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity3">
+
 
     <TextView
         android:textColor="@color/red"
@@ -30,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"/>
     <Button
-        android:id="@+id/btn2"
+        android:id="@+id/btnn"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:text="@string/sign_up" />
