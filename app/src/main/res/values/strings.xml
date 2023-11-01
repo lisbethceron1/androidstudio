@@ -7,4 +7,16 @@
     <string name="sign_up">sign_up</string>
     <string name="contrasena">contrasena</string>
     <string name="inicio_de_sesion">inicio de sesion</string>
+    <string name="iniciar_sesion">/iniciar sesion</string>
+    <string name="inicias_sesion">inicias sesion</string>
+    <string name="continuar_con_google">Continuar con Google</string>
+    <string name="haz_olvidado_tu_contrase_a">Haz olvidado tu contraseña</string>
+    <string name="pets">Pets</string>
+    <string name="petlovers">PetLovers</string>
+    <string name="petlovers_3">PetLovers :3</string>
+    <string name="nombre">Nombre:</string>
+    <string name="edad">Edad:</string>
+    <string name="raza">Raza:</string>
+    <string name="gato_perro">Gato/Perro</string>
+    <string name="descripci_n">Descripción:</string>
 </resources>
