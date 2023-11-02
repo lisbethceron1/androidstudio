@@ -13,27 +13,29 @@
         android:layout_height="wrap_content"
         android:text="@string/petlovers_3"
         android:layout_gravity="center"
-        android:textSize="30dp"
+        android:textSize="@dimen/_30dp"
         android:textStyle="bold"
         />
 
     <ImageView
+         android:id="@+id/txtPass"
         android:src="@drawable/perro"
         android:layout_width="@dimen/_200dp"
         android:layout_height="@dimen/_200dp"
         android:layout_gravity="center"
 
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginTop="@dimen/_40dp"
+        android:layout_marginBottom="@dimen/_10dp"
         />
     <EditText
+         android:id="@+id/txtUser"
         android:hint ="@string/usuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginLeft="@dimen/_20dp"
         android:layout_marginRight="@dimen/_20dp"
-        android:layout_marginBottom="10dp"   />
+        android:layout_marginBottom="@dimen/_10dp"   />
 
     <EditText
         android:hint="@string/contrasena"
@@ -42,17 +44,17 @@
         android:layout_gravity="center"
         android:layout_marginLeft="@dimen/_20dp"
         android:layout_marginRight="@dimen/_20dp"
-        android:layout_marginBottom="30dp"/>
+        android:layout_marginBottom="@dimen/_30dp"/>
     <Button
         android:id="@+id/btn"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_height="@dimen/_48dp"
         android:text="@string/inicias_sesion"
         android:layout_marginBottom="5dp"/>
     <Button
         android:id="@+id/btno"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_height="@dimen/_48dp"
         android:text="@string/continuar_con_google"
         android:layout_marginBottom="10dp"/>
     <TextView

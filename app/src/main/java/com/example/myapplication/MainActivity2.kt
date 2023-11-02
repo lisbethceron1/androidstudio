@@ -16,10 +16,12 @@ class MainActivity2 : AppCompatActivity() {
         binding =  ActivityMain2Binding.inflate(LayoutInflater.from(this))
         setContentView(binding.root)
 
+
         initUI()
     }
     private fun initUI(){
         setupOnClicklistener()
+        setupExtras()
     }
 
     private fun setupOnClicklistener(){
@@ -28,5 +30,12 @@ class MainActivity2 : AppCompatActivity() {
 
             startActivity(intent)
         }
+    }
+    private fun setupExtras(){
+        val userExtra = intent.getStringExtra("keyuser")
+        val passExtra = intent.getStringExtra("keypass")
+        binding.txtNameUser.text = userExtra
+        binding.txtNameUser.text = passExtra
+
     }
 }

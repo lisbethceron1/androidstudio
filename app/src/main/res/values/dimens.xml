@@ -2,4 +2,16 @@
 <resources>
     <dimen name="_200dp">200dp</dimen>
     <dimen name="_20dp">20dp</dimen>
+    <dimen name="_48dp">48dp</dimen>
+    <dimen name="_90dp">90dp</dimen>
+    <dimen name="_80dp">80dp</dimen>
+    <dimen name="_60dp">60dp</dimen>
+    <dimen name="_20sp">20sp</dimen>
+    <dimen name="_30dp">30dp</dimen>
+    <dimen name="_10dp">10dp</dimen>
+    <dimen name="_50dp">50dp</dimen>
+    <dimen name="_40dp">40dp</dimen>
+    <dimen name="_160dp">160dp</dimen>
+    <dimen name="_100dp">100dp</dimen>
+    <dimen name="_95dp">95dp</dimen>
 </resources>
