@@ -1,4 +1,4 @@
- <resources>
+<resources>
     <string name="app_name">My Application</string>
     <string name="hola_mundo">Hola mundo!</string>
     <string name="mi_boton">mi boton</string>
@@ -22,5 +22,5 @@
     <string name="pararfo1">
 "En el mundo de las huellas, peludos y ronroneos, mi corazón late más fuerte. Cada paciente de cuatro patas es un pequeño milagro, y mi misión es cuidarlos con amor, compasión y ternura. En nuestra cita, prometo brindar a tus queridas mascotas el cuidado que merecen, y a ti, una dosis extra de cariño y consejos para mantenerlos saludables y felices. Juntos, crearemos un lazo especial que hará que sus colitas no dejen de moverse de alegría. ¡Te espero en mi clínica para compartir este hermoso viaje juntos!"</string>
     <string name="agendar">Agendar</string>
-     <string name="nuestras_citas">Nuestras citas</string>
- </resources>
+    <string name="nuestras_citas">Nuestras citas</string>
+</resources>

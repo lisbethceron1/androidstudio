@@ -1,10 +1,10 @@
-package com.example.myapplication
+package com.example.myapplication.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
-import com.example.myapplication.databinding.ActivityMain2Binding
+import com.example.myapplication.R
 import com.example.myapplication.databinding.ActivityMain3Binding
 
 class MainActivity3 : AppCompatActivity() {
@@ -23,7 +23,7 @@ class MainActivity3 : AppCompatActivity() {
 
     private fun setupOnClicklistener(){
         binding.btnn.setOnClickListener{
-            val intent = Intent (this,MainActivity::class.java)
+            val intent = Intent (this, MainActivity::class.java)
 
             startActivity(intent)
         }
